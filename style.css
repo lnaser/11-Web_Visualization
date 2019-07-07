@@ -60,4 +60,18 @@
     color: rgb(66, 187, 196);      
   }
 
- 
+ .page-header {
+    color: rgb(66, 187, 196);      
+ }
+
+.visualizations-container {
+    position: center;
+    height: 700px;
+    width: 700px;
+    background: white;   
+}
+
+.visualizations-image {
+    height: 425px;
+    width: 550px;
+}
