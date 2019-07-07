@@ -1,0 +1,63 @@
+/*
+ * Absolute Position: anchors element to the first element (overall box)
+ */
+
+ .jumbotron1 {
+    position: relative;
+    height: 600px;
+    width: 600px;
+    background: white;
+  }
+  
+  .jumbotron2 {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background: white;
+    margin-bottom: 40 !important;
+  }
+
+  p {
+    position: relative; 
+  }
+
+  body {
+      background: rgb(228, 226, 226);
+
+  }
+
+  .navbar-brand {
+      font-weight: bold;
+      color: rgb(66, 187, 196);
+
+  }
+
+  .display-4 {
+    font-weight: bold;
+    border: 1px solid lightgray;
+  }
+
+  .display-4 {
+      color: rgb(66, 187, 196);
+  }
+
+  .text-center {
+    color: rgb(66, 187, 196);
+    font-weight: bold;
+  }
+
+  .navbar-nav {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  /*
+ * dont know why this won't work
+ */
+  .navbar-brand {
+    color: rgb(66, 187, 196);      
+  }
+
+ 
